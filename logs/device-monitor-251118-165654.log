@@ -1,0 +1,31 @@
+[37m
+[37m
+===================[37m=[37m====================
+ESP32 TLV320ADC3101 + I2S Test
+=============[37m===========================
+
+[37mI[37m2C Initialized
+  SDA: GPIO25, SCL: GPIO26, Freq: 400 kHz
+
+Scanning I2C bus...
+[37m  0x18 (ADC2)
+  0x1A (ADC1)
+[37m [37m [37m0x39
+  0x3F
+[37mF[37mo[37mund 4 devices
+
+--- Configuring ADC1 (0x1A) ---
+[37m[37m✓ Configuration successful (0 errors)
+
+--- Confi[37mg[37muring ADC2 (0x18) ---
+[37m[37m✓[37m Configuration successful (0 errors)
+
+=== I2S Conf[37mi[37mguration ===
+✓ I2S initializ[37me[37md successfully
+  Sample Rate: 48000 Hz
+  BCK: GPIO32, WS: GPIO[37m3[37m3, DIN: GPIO13
+
+✓ Setup co[37mmplete! Waiting for ADCs to stabilize...
+[37m
+[37m[37m▶ Starting I2S audio test (every 3 seconds)...
+

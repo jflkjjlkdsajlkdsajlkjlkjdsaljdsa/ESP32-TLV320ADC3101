@@ -1,0 +1,133 @@
+[37m0x00,hd_drv:[37m
+[37m
+====[37m=[37m==========[37m=[37m===========[37m=[37m==========[37m=[37m=
+ESP32 TL[37mV[37m320ADC3101[37m [37m+ I2S Test[37m
+[37m==========[37m=[37m===========[37m=[37m===========[37m=[37m=====
+
+[37mI[37m2[37mC Initializ[37me[37md
+  SDA: [37mG[37mPIO25, SCL:[37m [37mGPIO26, Fr[37me[37mq: 400 kHz
+[37m
+[37mScanning I2[37mC[37m bus...
+ [37m [37m0x18 (ADC2[37m)[37m
+  0x1A (A[37mD[37mC1)
+  0x39[37m[37m
+  0x3F
+F[37mo[37mund 4 devic[37me[37ms
+
+--- Con[37mf[37miguring AD[37mC[37m1 (0x1A) --[37m-[37m
+[37m[37m✓ Config[37mu[37mration succ[37me[37mssful (0 e[37mr[37mrors)
+
+---[37m Configurin[37mg[37m ADC2 (0x18[37m)[37m ---
+[37m[37m[37m✓ Config[37mu[37mration succ[37me[37mssful (0 er[37mr[37mors)
+
+===[37m [37mI2S Configu[37mr[37mation ===[37m
+[37m✓ I2S ini[37mt[37mialized su[37mc[37mcessfully
+[37m [37m Sample Ra[37mt[37me: 48000 Hz[37m
+[37m  BCK: GPI[37mO[37m32, WS: GPI[37mO[37m33, DIN: G[37mP[37mIO13
+
+✓ S[37me[37mtup complet[37me[37m! Waiting [37mf[37mor ADCs to[37m [37mstabilize..[37m.[37m
+[37m
+[37m[37m▶ Starting [37mI[37m2S audio t[37me[37mst (every 3[37m [37mseconds)..[37m.[37m
+
+
+=== I2S[37m [37mAudio Test[37m [37m===
+Sample[37ms[37m: 512 | No[37mn[37m-zero: 512 [37m([37m100.0%)
+Ra[37mn[37mge: -137503[37m4[37m0 to 16334[37m8[37m46
+Average:[37m [37m4510731
+
+Fi[37mr[37mst 8 sampl[37me[37ms:
+  [0]: [37m0[37mx0016FFF6 [37m([37m1507318)
+  [37m[[37m1]: 0xFFFB[37mF[37mC1D (-26313[37m9[37m)
+  [2]: 0[37mx[37mFFFEFFFF (-[37m6[37m5537)
+  [3[37m][37m: 0xFFFFF83[37mF[37m (-1985)
+ [37m [37m[4]: 0xFFED[37mB[37mBFF (-1197[37m0[37m57)
+  [5]: [37m0[37mxFFFE903F [37m([37m-94145)
+  [[37m6[37m]: 0xFFFBB[37mE[37m3D (-278979[37m)[37m
+  [7]: 0x[37mF[37mFEEF23F (-1[37m1[37m17633)
+
+[37m✓[37m Audio sign[37ma[37ml detected![37m[37m
+[37m
+[37m=== I2S Audio[37m Test ===
+[37mS[37mamples: 512[37m [37m| Non-zero[37m:[37m 512 (100.0[37m%[37m)
+Range: -[37m2[37m770945 to 3[37m6[37m68988
+Aver[37ma[37mge: 677631
+[37m
+[37mFirst 8 sam[37mp[37mles:
+  [0[37m][37m: 0xFFFACE3[37mE[37m (-340418)[37m
+[37m  [1]: 0xFF[37mE[37mFDE6F (-10[37m5[37m7169)
+  [2][37m:[37m 0xFFF7CE3[37mE[37m (-537026)[37m
+[37m  [3]: 0xFF[37mE[37mE6E63 (-11[37m5[37m1389)
+  [4][37m:[37m 0xFFFCBE37[37m [37m(-213449)
+[37m [37m [5]: 0xFFF[37mD[37mD67F (-141[37m6[37m97)
+  [6]: [37m0[37mxFFF7D235 [37m([37m-536011)
+  [37m[[37m7]: 0xFFFE[37mF[37mE76 (-65930[37m)[37m
+
+✓ Audi[37mo[37m signal det[37me[37mcted!
+[37m
+[37m==[37m=[37m I2S Audio [37mT[37mest ===
+S[37ma[37mmples: 512 [37m|[37m Non-zero:[37m [37m512 (100.0%[37m)[37m
+Range: -95[37m6[37m0772 to 83[37m8[37m3484
+Averag[37me[37m: 1749104
+[37m
+[37mFirst 8 sam[37mp[37mles:
+  [0[37m][37m: 0xFFF6FFF[37m3[37m (-589837)[37m
+[37m  [1]: 0xFF[37mF[37mF565F (-43[37m4[37m25)
+  [2]: [37m0[37mxFFFEEE1B [37m([37m-70117)
+  [[37m3[37m]: 0xFFF3F[37mE[37m5F (-786849[37m)[37m
+  [4]: 0x[37mF[37mFFE6C2B (-1[37m0[37m3381)
+  [5][37m:[37m 0xFFFFFE7[37mB[37m (-389)
+  [[37m6[37m]: 0xFFFAD[37m0[37m3E (-33990[37m6[37m)
+  [7]: 0x[37mF[37mFF3B45B (-8[37m0[37m5797)
+
+✓[37m [37mAudio sign[37ma[37ml detected![37m[37m
+[37m
+[37m=== [37mI2S Audio T[37me[37mst ===
+Sam[37mp[37mles: 512 |[37m [37mNon-zero: 5[37m1[37m2 (100.0%)[37m
+[37mRange: -498[37m5[37m157 to 419[37m3[37m773
+Average[37m:[37m 1331370
+
+[37mF[37mirst 8 samp[37ml[37mes:
+  [0][37m:[37m 0x001FEFDB[37m [37m(2093019)
+[37m [37m [1]: 0x001[37mF[37m1FF6 (20397[37m9[37m8)
+  [2]: [37m0[37mx001DEFE4 [37m([37m1961956)
+  [37m[[37m3]: 0x001BF[37mF[37mE9 (183498[37m5[37m)
+  [4]: 0[37mx[37m001E3BE4 (1[37m9[37m81412)
+  [5[37m][37m: 0x001DFF[37mF[37mD (1966077)[37m
+[37m  [6]: 0x0[37m0[37m1FF7E9 (209[37m5[37m081)
+  [7][37m:[37m 0x001AFFFF[37m [37m(1769471)
+[37m
+[37m✓ Audio s[37mi[37mgnal detec[37mt[37med!
+[37m
+[37m=== I[37m2S Audio Te[37ms[37mt ===
+Samp[37ml[37mes: 512 | [37mN[37mon-zero: 51[37m2[37m (100.0%)
+[37mR[37mange: -2392[37m4[37m53 to 2062[37m8[37m43
+Average:[37m [37m663919
+
+Fir[37ms[37mt 8 sample[37ms[37m:
+  [0]: [37m0[37mxFFFFF9FB ([37m-[37m1541)
+  [1][37m:[37m 0xFFFF1E2[37mE[37m (-57810)
+ [37m [37m[2]: 0xFFF[37mF[37m1BF2 (-5838[37m2[37m)
+  [3]: 0[37mx[37mFFE9BFFF (-[37m1[37m458177)
+  [37m[[37m4]: 0x000B5[37m3[37mFD (742397[37m)[37m
+  [5]: 0xF[37mF[37mEA5FFF (-1[37m4[37m17217)
+  [6[37m][37m: 0x000D7F[37mF[37mD (884733)
+[37m [37m [7]: 0xFF[37mE[37mE4FFF (-115[37m9[37m169)
+
+✓ A[37mu[37mdio signal[37m [37mdetected![37m
+[37m
+[37m=[37m== I2[37mS[37m Audio Tes[37mt[37m ===
+Sampl[37me[37ms: 512 | N[37mo[37mn-zero: 512[37m [37m(100.0%)
+Ra[37mn[37mge: -42020[37m1[37m3 to 262143[37m
+[37mAverage: 7[37m2[37m9129
+
+Firs[37mt[37m 8 samples:[37m[37m
+  [0]: 0xF[37mF[37mFF7E2D (-3[37m3[37m235)
+  [1][37m:[37m 0xFFFAF67F[37m [37m(-330113)
+ [37m [37m[2]: 0xFFF[37mF[37mF43F (-3009[37m)[37m
+  [3]: 0x[37mF[37mFF56E5F (-6[37m9[37m2641)
+  [4[37m][37m: 0xFFF8D61[37mF[37m (-469473)[37m
+[37m  [5]: 0xFF[37mF[37m77E5B (-55[37m7[37m477)
+  [6]:[37m [37m0xFFFCDA17[37m [37m(-206313)
+ [37m [37m[7]: 0xFFF[37m7[37mBE59 (-5410[37m9[37m5)
+
+✓ Aud[37mi[37mo signal d[37me[37mtected!

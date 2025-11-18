@@ -1,0 +1,1004 @@
+[37m00,cs0_drv:0x00,hd_drv[37m
+[37m
+[37m=======[37m=[37m===========[37m=[37m==========[37m=[37m=====
+TLV3[37m2[37m0ADC3101 C[37mo[37mnfiguration[37m [37mfor ESP32[37m
+[37m===========[37m=[37m===========[37m=[37m==========[37m=[37m=
+
+[37mI[37m2[37mC Initi[37ma[37mlized
+  [37mS[37mDA Pin: GPI[37mO[37m 25
+  SCL[37m [37mPin: GPIO 2[37m6[37m
+  Freque[37mn[37mcy: 400 kHz[37m[37m
+
+Scanning[37m [37mI2C bus...[37m
+[37m  Found de[37mv[37mice at 0x18[37m [37m(ADC2)
+  [37mF[37mound device[37m [37mat 0x1A (AD[37mC[37m1)
+[37m [37m F[37mo[37mund device [37ma[37mt 0x3F
+[37mT[37mo[37mtal device[37ms[37m found: 3[37m
+[37m
+--- Config[37mu[37mring ADC1 [37m([37m0x1A) ---
+[37mV[37mE[37mRIFY[37m [37mERROR: Reg[37m [37m7 page 0 ex[37mp[37mected 0x2 [37mg[37mot 0x0
+[37mW[37mA[37mRNIN[37mG[37m: 1 errors[37m [37mduring conf[37mi[37mguration![37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address: [37m0[37mx1A
+ADC F[37ml[37mag Register[37m:[37m 0x44
+PLL[37m [37mConfig: 0x9[37m1[37m
+NADC: 0x[37m8[37m8
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write[37m [37mErrors: 1
+[37m
+[37m--- Config[37mu[37mring ADC2 ([37m0[37mx18) ---
+[37mV[37mE[37mRIFY[37m [37mERROR: Reg[37m [37m7 page 0 ex[37mp[37mected 0x2 [37mg[37mot 0x0
+[37mW[37mA[37mRNIN[37mG[37m: 1 errors[37m [37mduring conf[37mi[37mguration![37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address: [37m0[37mx18
+ADC F[37ml[37mag Register[37m:[37m 0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x[37m8[37m8
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+[37m
+[37m==========[37m=[37m===========[37m=[37m===========[37m=[37m=
+Setup C[37mo[37mmplete!
+==[37m=[37m==========[37m=[37m===========[37m=[37m==========[37m
+[37m
+[37m
+[37m--- Periodic Status Check ---
+
+=== ADC Status ===
+ADC Address: 0[37mx1A
+ADC Fla[37mg[37m Register:[37m [37m0x44
+PLL C[37mo[37mnfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+T[37mo[37mtal Write E[37mr[37mrors: 1
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37m8
+ADC Flag[37m [37mRegister: [37m0[37mx44
+PLL Co[37mn[37mfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+To[37mt[37mal Write Er[37mr[37mors: 1
+[37me[37mts Jun [37m [37m8 2016 00:[37m2[37m2:57
+
+rst[37m:[37m0x1 (POWERO[37mN[37m_RESET),bo[37mo[37mt:0x13 (SPI[37m_[37mFAST_FLASH_[37mB[37mOOT)
+conf[37mi[37mgsip: 0, SP[37mI[37mWP:0xee
+c[37ml[37mk_drv:0x00,[37mq[37m_drv:0x00,[37md[37m_drv:0x00,c[37ms[37m0_drv:0x00,[37mh[37md_drv:0x00[37m,[37mwp_drv:0x00[37m[37m
+mode:DIO,[37m [37mclock div:2[37m[37m
+load:0x3ff[37mf[37m0030,len:1[37m1[37m84
+load:0x[37m4[37m0078000,le[37mn[37m:13232
+loa[37md[37m:0x40080400[37m,[37mlen:3028
+[37me[37mntry 0x4008[37m0[37m5e4
+[37m
+[37m
+[37m=============[37m=[37m=========[37m=[37m===========[37m=[37m
+TLV320AD[37mC[37m3101 Config[37mu[37mration for[37m [37mESP32
+====[37m=[37m==========[37m=[37m===========[37m=[37m========
+
+[37mI[37m2[37mC Initiali[37mz[37med
+  SDA [37mP[37min: GPIO 25[37m[37m
+  SCL Pin[37m:[37m GPIO 26
+ [37m [37mFrequency:[37m [37m400 kHz
+
+S[37mc[37manning I2C[37m [37mbus...
+  F[37mo[37mund device [37ma[37mt 0x18 (AD[37mC[37m2)
+  Foun[37md[37m device at [37m0[37mx1A (ADC1)[37m
+[37m [37m Found[37m [37mdevice at 0[37mx[37m3F
+[37mT[37mo[37mtal[37m [37mdevices fo[37mu[37mnd: 3
+
+--[37m-[37m Configurin[37mg[37m ADC1 (0x1A[37m)[37m ---
+[37mV[37mE[37mRIFY ERR[37mO[37mR: Reg 7 p[37ma[37mge 0 expec[37mt[37med 0x2 got [37m0[37mx0
+[37mW[37mA[37mRNING: 1 [37me[37mrrors dur[37mi[37mng configur[37ma[37mtion!
+
+==[37m=[37m ADC Status[37m [37m===
+ADC A[37md[37mdress: 0x1A[37m[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+N[37mA[37mDC: 0x88
+[37mM[37mADC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Err[37mo[37mrs: 1
+
+---[37m [37mConfiguring[37m [37mADC2 (0x18[37m)[37m ---
+[37mV[37mE[37mRIFY ERR[37mO[37mR: Reg 7 p[37ma[37mge 0 expect[37me[37md 0x2 got [37m0[37mx0
+[37mW[37mA[37mRNING: 1[37m [37merrors dur[37mi[37mng configur[37ma[37mtion!
+
+==[37m=[37m ADC Status[37m [37m===
+ADC A[37md[37mdress: 0x18[37m[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+N[37mA[37mDC: 0x88
+M[37mA[37mDC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Err[37mo[37mrs: 1
+
+===[37m=[37m===========[37m=[37m==========[37m=[37m=========[37m
+[37mSetup Compl[37me[37mte!
+======[37m=[37m==========[37m=[37m===========[37m=[37m======
+
+[37m
+[37m-[37m-- Periodic [37mS[37mtatus Chec[37mk[37m ---
+
+=== [37mA[37mDC Status [37m=[37m==
+ADC Add[37mr[37mess: 0x1A[37m
+[37mADC Flag Re[37mg[37mister: 0x4[37m4[37m
+PLL Confi[37mg[37m: 0x91
+NA[37mD[37mC: 0x88
+MA[37mD[37mC: 0x82
+A[37mD[37mC Digital: [37m0[37mxC2
+Total[37m [37mWrite Error[37ms[37m: 1
+
+=== A[37mD[37mC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x18
+[37mA[37mDC Flag Reg[37mi[37mster: 0x44[37m[37m
+PLL Confi[37mg[37m: 0x91
+NAD[37mC[37m: 0x88
+MA[37mD[37mC: 0x82
+AD[37mC[37m Digital: 0[37mx[37mC2
+Total [37mW[37mrite Errors[37m:[37m 1
+[37m
+[37m---[37m [37mPeriodic St[37ma[37mtus Check [37m-[37m--
+
+=== A[37mD[37mC Status ==[37m=[37m
+ADC Addre[37ms[37ms: 0x1A
+A[37mD[37mC Flag Reg[37mi[37mster: 0x44[37m
+[37mPLL Config:[37m [37m0x91
+NADC[37m:[37m 0x88
+MADC[37m:[37m 0x82
+ADC[37m [37mDigital: 0x[37mC[37m2
+Total W[37mr[37mite Errors:[37m [37m1
+
+=== AD[37mC[37m Status ===[37m[37m
+ADC Addres[37ms[37m: 0x18
+AD[37mC[37m Flag Regi[37ms[37mter: 0x44
+[37mP[37mLL Config: [37m0[37mx91
+NADC:[37m [37m0x88
+MADC:[37m [37m0x82
+ADC [37mD[37migital: 0xC[37m2[37m
+Total Wr[37mi[37mte Errors:[37m [37m1
+[37m
+[37m-[37m-- P[37me[37mriodic Stat[37mu[37ms Check --[37m-[37m
+
+=== ADC[37m [37mStatus ===[37m
+[37mADC Addres[37ms[37m: 0x1A
+ADC[37m [37mFlag Regist[37me[37mr: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: [37m0[37mx88
+MADC: [37m0[37mx82
+ADC D[37mi[37mgital: 0xC[37m2[37m
+Total Wri[37mt[37me Errors: 1[37m[37m
+
+=== ADC [37mS[37mtatus ===
+[37mA[37mDC Address[37m:[37m 0x18
+ADC [37mF[37mlag Regist[37me[37mr: 0x44
+PL[37mL[37m Config: 0x[37m9[37m1
+NADC: 0[37mx[37m88
+MADC: [37m0[37mx82
+ADC Di[37mg[37mital: 0xC2[37m[37m
+Total Writ[37me[37m Errors: 1[37m[37m
+[37m
+[37m-[37m-- Per[37mi[37modic Statu[37ms[37m Check ---[37m
+[37m
+=== ADC S[37mt[37matus ===
+A[37mD[37mC Address: [37m0[37mx1A
+ADC F[37ml[37mag Registe[37mr[37m: 0x44
+PLL[37m [37mConfig: 0x[37m9[37m1
+NADC: 0x[37m8[37m8
+MADC: 0[37mx[37m82
+ADC Dig[37mi[37mtal: 0xC2[37m
+[37mTotal Write[37m [37mErrors: 1
+[37m
+[37m=== ADC St[37ma[37mtus ===
+AD[37mC[37m Address: [37m0[37mx18
+ADC Fl[37ma[37mg Register[37m:[37m 0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+[37m
+[37m-[37m-- Perio[37md[37mic Status [37mC[37mheck ---
+
+[37m=[37m== ADC Sta[37mt[37mus ===
+ADC[37m [37mAddress: 0[37mx[37m1A
+ADC Fla[37mg[37m Register:[37m [37m0x44
+PLL C[37mo[37mnfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+T[37mo[37mtal Write E[37mr[37mrors: 1
+
+=[37m=[37m= ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37m8
+ADC Flag[37m [37mRegister: [37m0[37mx44
+PLL C[37mo[37mnfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+To[37mt[37mal Write Er[37mr[37mors: 1
+[37m
+[37m--- Periodic Status Check ---
+
+=== ADC Status ===
+ADC Address: 0x1A
+ADC Flag Register: 0[37mx44
+PLL Con[37mf[37mig: 0x91
+[37mN[37mADC: 0x88
+[37mM[37mADC: 0x82[37m
+[37mADC Digital[37m:[37m 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+
+==[37m=[37m ADC Status[37m [37m===
+ADC A[37md[37mdress: 0x18[37m[37m
+ADC Flag R[37me[37mgister: 0x[37m4[37m4
+PLL Conf[37mi[37mg: 0x91
+N[37mA[37mDC: 0x88
+[37mM[37mADC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Erro[37mr[37ms: 1
+[37m
+[37m-[37m-- Periodic[37m [37mStatus Chec[37mk[37m ---
+
+===[37m [37mADC Status [37m=[37m==
+ADC Add[37mr[37mess: 0x1A[37m
+[37mADC Flag Re[37mg[37mister: 0x4[37m4[37m
+PLL Confi[37mg[37m: 0x91
+NA[37mD[37mC: 0x88
+M[37mA[37mDC: 0x82
+A[37mD[37mC Digital: [37m0[37mxC2
+Total[37m [37mWrite Error[37ms[37m: 1
+
+=== [37mA[37mDC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x18
+[37mA[37mDC Flag Re[37mg[37mister: 0x44[37m[37m
+PLL Confi[37mg[37m: 0x91
+NAD[37mC[37m: 0x88
+MAD[37mC[37m: 0x82
+AD[37mC[37m Digital: [37m0[37mxC2
+Total [37mW[37mrite Errors[37m:[37m 1
+[37m
+[37m---[37m [37mPeriodic S[37mt[37matus Check [37m-[37m--
+
+=== A[37mD[37mC Status ==[37m=[37m
+ADC Addr[37me[37mss: 0x1A
+A[37mD[37mC Flag Regi[37ms[37mter: 0x44[37m
+[37mPLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MADC[37m:[37m 0x82
+ADC[37m [37mDigital: 0[37mx[37mC2
+Total W[37mr[37mite Errors:[37m [37m1
+
+=== AD[37mC[37m Status ===[37m[37m
+ADC Addre[37ms[37ms: 0x18
+AD[37mC[37m Flag Regi[37ms[37mter: 0x44
+[37mP[37mLL Config:[37m [37m0x91
+NADC:[37m [37m0x88
+MADC[37m:[37m 0x82
+ADC [37mD[37migital: 0x[37mC[37m2
+Total Wr[37mi[37mte Errors: [37m1[37m
+[37m
+[37m-[37m-- P[37me[37mriodic Sta[37mt[37mus Check --[37m-[37m
+
+=== ADC[37m [37mStatus ===[37m
+[37mADC Addres[37ms[37m: 0x1A
+ADC[37m [37mFlag Regis[37mt[37mer: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: [37m0[37mx88
+MADC:[37m [37m0x82
+ADC D[37mi[37mgital: 0xC[37m2[37m
+Total Wri[37mt[37me Errors: 1[37m[37m
+
+=== ADC [37mS[37mtatus ===
+[37mA[37mDC Address[37m:[37m 0x18
+ADC [37mF[37mlag Regist[37me[37mr: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: 0[37mx[37m88
+MADC: [37m0[37mx82
+ADC Di[37mg[37mital: 0xC2[37m[37m
+Total Writ[37me[37m Errors: 1[37m[37m
+[37m
+[37m--- Pe[37mr[37miodic Statu[37ms[37m Check ---[37m
+[37m
+=== ADC S[37mt[37matus ===
+A[37mD[37mC Address:[37m [37m0x1A
+ADC F[37ml[37mag Registe[37mr[37m: 0x44
+PLL[37m [37mConfig: 0x[37m9[37m1
+NADC: 0x[37m8[37m8
+MADC: 0[37mx[37m82
+ADC Dig[37mi[37mtal: 0xC2
+[37mT[37motal Write[37m [37mErrors: 1[37m
+[37m
+=== ADC St[37ma[37mtus ===
+AD[37mC[37m Address: [37m0[37mx18
+ADC Fl[37ma[37mg Register[37m:[37m 0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x[37m8[37m2
+ADC Dig[37mi[37mtal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+[37m
+[37m-[37m-- Peri[37mo[37mdic Status [37mC[37mheck ---
+
+[37m=[37m== ADC Sta[37mt[37mus ===
+ADC[37m [37mAddress: 0[37mx[37m1A
+ADC Fla[37mg[37m Register:[37m [37m0x44
+PLL C[37mo[37mnfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+T[37mo[37mtal Write E[37mr[37mrors: 1
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37m8
+ADC Fla[37mg[37m Register: [37m0[37mx44
+PLL C[37mo[37mnfig: 0x91[37m
+[37mNADC: 0x88[37m[37m
+MADC: 0x82[37m[37m
+ADC Digit[37ma[37ml: 0xC2
+To[37mt[37mal Write Er[37mr[37mors: 1
+[37m
+[37m-[37m-- Period[37mi[37mc Status Ch[37me[37mck ---
+
+=[37m=[37m= ADC Statu[37ms[37m ===
+ADC [37mA[37mddress: 0x1[37mA[37m
+ADC Flag[37m [37mRegister: 0[37mx[37m44
+PLL Co[37mn[37mfig: 0x91
+[37mN[37mADC: 0x88[37m
+[37mMADC: 0x82[37m
+[37mADC Digital[37m:[37m 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+
+==[37m=[37m ADC Status[37m [37m===
+ADC A[37md[37mdress: 0x18[37m[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+N[37mA[37mDC: 0x88
+[37mM[37mADC: 0x82
+[37mA[37mDC Digital[37m:[37m 0xC2
+Tota[37ml[37m Write Err[37mo[37mrs: 1
+[37m
+[37m-[37m-- Periodic[37m [37mStatus Chec[37mk[37m ---
+
+===[37m [37mADC Status [37m=[37m==
+ADC Ad[37md[37mress: 0x1A[37m
+[37mADC Flag R[37me[37mgister: 0x4[37m4[37m
+PLL Conf[37mi[37mg: 0x91
+NA[37mD[37mC: 0x88
+MA[37mD[37mC: 0x82
+A[37mD[37mC Digital:[37m [37m0xC2
+Total[37m [37mWrite Error[37ms[37m: 1
+
+=== [37mA[37mDC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x18
+[37mA[37mDC Flag Re[37mg[37mister: 0x44[37m[37m
+PLL Confi[37mg[37m: 0x91
+NAD[37mC[37m: 0x88
+MA[37mD[37mC: 0x82
+AD[37mC[37m Digital: [37m0[37mxC2
+Total [37mW[37mrite Error[37ms[37m: 1
+[37m
+[37m---[37m [37mPeriodic S[37mt[37matus Check [37m-[37m--
+
+=== A[37mD[37mC Status ==[37m=[37m
+ADC Addr[37me[37mss: 0x1A
+A[37mD[37mC Flag Reg[37mi[37mster: 0x44[37m
+[37mPLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MAD[37mC[37m: 0x82
+ADC[37m [37mDigital: 0[37mx[37mC2
+Total W[37mr[37mite Errors[37m:[37m 1
+
+=== AD[37mC[37m Status ===[37m[37m
+ADC Addre[37ms[37ms: 0x18
+AD[37mC[37m Flag Regi[37ms[37mter: 0x44[37m
+[37mPLL Config:[37m [37m0x91
+NADC:[37m [37m0x88
+MADC[37m:[37m 0x82
+ADC [37mD[37migital: 0x[37mC[37m2
+Total Wr[37mi[37mte Errors:[37m [37m1
+[37m
+[37m--- P[37me[37mriodic Sta[37mt[37mus Check -[37m-[37m-
+
+=== ADC[37m [37mStatus ===[37m[37m
+ADC Addres[37ms[37m: 0x1A
+ADC[37m [37mFlag Regis[37mt[37mer: 0x44
+P[37mL[37mL Config: [37m0[37mx91
+NADC: [37m0[37mx88
+MADC:[37m [37m0x82
+ADC D[37mi[37mgital: 0xC[37m2[37m
+Total Wri[37mt[37me Errors: [37m1[37m
+
+=== ADC [37mS[37mtatus ===[37m
+[37mADC Address[37m:[37m 0x18
+ADC[37m [37mFlag Regist[37me[37mr: 0x44
+PL[37mL[37m Config: 0[37mx[37m91
+NADC: [37m0[37mx88
+MADC: [37m0[37mx82
+ADC D[37mi[37mgital: 0xC2[37m[37m
+Total Writ[37me[37m Errors: 1[37m[37m
+[37m
+[37m--- Pe[37mr[37miodic Statu[37ms[37m Check ---[37m[37m
+
+=== ADC S[37mt[37matus ===
+A[37mD[37mC Address:[37m [37m0x1A
+ADC [37mF[37mlag Registe[37mr[37m: 0x44
+PL[37mL[37m Config: 0x[37m9[37m1
+NADC: 0x[37m8[37m8
+MADC: 0[37mx[37m82
+ADC Dig[37mi[37mtal: 0xC2[37m
+[37mTotal Write[37m [37mErrors: 1[37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address: [37m0[37mx18
+ADC F[37ml[37mag Register[37m:[37m 0x44
+PLL[37m [37mConfig: 0x9[37m1[37m
+NADC: 0x[37m8[37m8
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write[37m [37mErrors: 1
+[37m
+[37m-[37m-- Peri[37mo[37mdic Status [37mC[37mheck ---
+[37m
+[37m=== ADC Sta[37mt[37mus ===
+AD[37mC[37m Address: 0[37mx[37m1A
+ADC Fl[37ma[37mg Register:[37m [37m0x44
+PLL [37mC[37monfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+T[37mo[37mtal Write E[37mr[37mrors: 1
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37m8
+ADC Fla[37mg[37m Register: [37m0[37mx44
+PLL C[37mo[37mnfig: 0x91[37m
+[37mNADC: 0x88[37m[37m
+MADC: 0x82[37m[37m
+ADC Digit[37ma[37ml: 0xC2
+To[37mt[37mal Write E[37mr[37mrors: 1
+[37m
+[37m-[37m-- Period[37mi[37mc Status Ch[37me[37mck ---
+
+=[37m=[37m= ADC Statu[37ms[37m ===
+ADC [37mA[37mddress: 0x1[37mA[37m
+ADC Flag[37m [37mRegister: 0[37mx[37m44
+PLL Co[37mn[37mfig: 0x91
+[37mN[37mADC: 0x88[37m
+[37mMADC: 0x82[37m
+[37mADC Digita[37ml[37m: 0xC2
+Tot[37ma[37ml Write Er[37mr[37mors: 1
+
+==[37m=[37m ADC Statu[37ms[37m ===
+ADC A[37md[37mdress: 0x18[37m[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+N[37mA[37mDC: 0x88
+[37mM[37mADC: 0x82
+[37mA[37mDC Digital[37m:[37m 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+[37m
+[37m-[37m-- Periodic[37m [37mStatus Che[37mc[37mk ---
+
+===[37m [37mADC Status[37m [37m===
+ADC Ad[37md[37mress: 0x1A[37m
+[37mADC Flag R[37me[37mgister: 0x4[37m4[37m
+PLL Conf[37mi[37mg: 0x91
+NA[37mD[37mC: 0x88
+M[37mA[37mDC: 0x82
+A[37mD[37mC Digital:[37m [37m0xC2
+Total[37m [37mWrite Erro[37mr[37ms: 1
+
+=== [37mA[37mDC Status [37m=[37m==
+ADC Add[37mr[37mess: 0x18[37m
+[37mADC Flag Re[37mg[37mister: 0x4[37m4[37m
+PLL Confi[37mg[37m: 0x91
+NAD[37mC[37m: 0x88
+MA[37mD[37mC: 0x82
+AD[37mC[37m Digital: [37m0[37mxC2
+Total[37m [37mWrite Error[37ms[37m: 1
+[37m
+[37m--[37m-[37m Periodic S[37mt[37matus Check[37m [37m---
+
+=== A[37mD[37mC Status =[37m=[37m=
+ADC Addr[37me[37mss: 0x1A
+[37mA[37mDC Flag Reg[37mi[37mster: 0x44[37m[37m
+PLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MAD[37mC[37m: 0x82
+AD[37mC[37m Digital: 0[37mx[37mC2
+Total W[37mr[37mite Errors[37m:[37m 1
+
+=== AD[37mC[37m Status ==[37m=[37m
+ADC Addre[37ms[37ms: 0x18
+A[37mD[37mC Flag Regi[37ms[37mter: 0x44[37m
+[37mPLL Config:[37m [37m0x91
+NADC[37m:[37m 0x88
+MADC[37m:[37m 0x82
+ADC[37m [37mDigital: 0x[37mC[37m2
+Total W[37mr[37mite Errors:[37m [37m1
+[37m
+[37m--- Periodic Sta[37mtus Check -[37m-[37m-
+
+=== ADC[37m [37mStatus ===[37m[37m
+ADC Addres[37ms[37m: 0x1A
+AD[37mC[37m Flag Regis[37mt[37mer: 0x44
+[37mP[37mLL Config: [37m0[37mx91
+NADC:[37m [37m0x88
+MADC:[37m [37m0x82
+ADC [37mD[37migital: 0xC[37m2[37m
+Total Wr[37mi[37mte Errors: [37m1[37m
+
+=== ADC [37mS[37mtatus ===[37m
+[37mADC Address[37m:[37m 0x18
+ADC[37m [37mFlag Regist[37me[37mr: 0x44
+P[37mL[37mL Config: [37m0[37mx91
+NADC: [37m0[37mx88
+MADC: [37m0[37mx82
+ADC D[37mi[37mgital: 0xC2[37m[37m
+Total Wri[37mt[37me Errors: 1[37m[37m
+[37m
+[37m-[37m-- Pe[37mr[37miodic Statu[37ms[37m Check ---[37m[37m
+
+=== ADC S[37mt[37matus ===
+[37mA[37mDC Address:[37m [37m0x1A
+ADC [37mF[37mlag Registe[37mr[37m: 0x44
+PL[37mL[37m Config: 0x[37m9[37m1
+NADC: 0[37mx[37m88
+MADC: 0[37mx[37m82
+ADC Di[37mg[37mital: 0xC2[37m
+[37mTotal Writ[37me[37m Errors: 1[37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address:[37m [37m0x18
+ADC F[37ml[37mag Register[37m:[37m 0x44
+PLL[37m [37mConfig: 0x9[37m1[37m
+NADC: 0x[37m8[37m8
+MADC: 0x[37m8[37m2
+ADC Dig[37mi[37mtal: 0xC2
+[37mT[37motal Write[37m [37mErrors: 1[37m
+[37m
+[37m-[37m-- Perio[37md[37mic Status[37m [37mCheck ---
+[37m
+[37m=== ADC Sta[37mt[37mus ===
+AD[37mC[37m Address: [37m0[37mx1A
+ADC Fl[37ma[37mg Register:[37m [37m0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x8[37m2[37m
+ADC Digi[37mt[37mal: 0xC2
+T[37mo[37mtal Write [37mE[37mrrors: 1
+
+[37m=[37m== ADC Sta[37mt[37mus ===
+ADC[37m [37mAddress: 0[37mx[37m18
+ADC Fla[37mg[37m Register:[37m [37m0x44
+PLL C[37mo[37mnfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+To[37mt[37mal Write E[37mr[37mrors: 1
+[37m
+[37m-[37m-- Period[37mi[37mc Status C[37mh[37meck ---
+
+=[37m=[37m= ADC Stat[37mu[37ms ===
+ADC [37mA[37mddress: 0x[37m1[37mA
+ADC Flag[37m [37mRegister: 0[37mx[37m44
+PLL Co[37mn[37mfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+To[37mt[37mal Write Er[37mr[37mors: 1
+
+==[37m=[37m ADC Statu[37ms[37m ===
+ADC A[37md[37mdress: 0x1[37m8[37m
+ADC Flag [37mR[37megister: 0[37mx[37m44
+PLL Con[37mf[37mig: 0x91
+[37mN[37mADC: 0x88
+[37mM[37mADC: 0x82[37m
+[37mADC Digital[37m:[37m 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+[37m
+[37m--- Periodic Status Che[37mck ---
+
+===[37m [37mADC Status[37m [37m===
+ADC Ad[37md[37mress: 0x1A[37m[37m
+ADC Flag R[37me[37mgister: 0x4[37m4[37m
+PLL Conf[37mi[37mg: 0x91
+N[37mA[37mDC: 0x88
+M[37mA[37mDC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Erro[37mr[37ms: 1
+
+=== [37mA[37mDC Status [37m=[37m==
+ADC Add[37mr[37mess: 0x18[37m
+[37mADC Flag Re[37mg[37mister: 0x4[37m4[37m
+PLL Conf[37mi[37mg: 0x91
+NA[37mD[37mC: 0x88
+MA[37mD[37mC: 0x82
+A[37mD[37mC Digital: [37m0[37mxC2
+Total[37m [37mWrite Error[37ms[37m: 1
+[37m
+[37m--[37m-[37m Periodic S[37mt[37matus Check[37m [37m---
+
+=== A[37mD[37mC Status =[37m=[37m=
+ADC Addr[37me[37mss: 0x1A
+[37mA[37mDC Flag Reg[37mi[37mster: 0x44[37m[37m
+PLL Config[37m:[37m 0x91
+NAD[37mC[37m: 0x88
+MAD[37mC[37m: 0x82
+AD[37mC[37m Digital: 0[37mx[37mC2
+Total [37mW[37mrite Errors[37m:[37m 1
+
+=== A[37mD[37mC Status ==[37m=[37m
+ADC Addr[37me[37mss: 0x18
+A[37mD[37mC Flag Reg[37mi[37mster: 0x44[37m
+[37mPLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MADC[37m:[37m 0x82
+ADC[37m [37mDigital: 0[37mx[37mC2
+Total W[37mr[37mite Errors:[37m [37m1
+[37m
+[37m--- [37mP[37meriodic St[37ma[37mtus Check ---
+
+=== ADC[37m Status ===[37m[37m
+ADC Address: 0x1A
+AD[37mC[37m Flag Regis[37mt[37mer: 0x44
+[37mP[37mLL Config:[37m [37m0x91
+NADC:[37m [37m0x88
+MADC:[37m [37m0x82
+ADC [37mD[37migital: 0xC[37m2[37m
+Total Wr[37mi[37mte Errors: [37m1[37m
+
+=== ADC[37m [37mStatus ===[37m
+[37mADC Addres[37ms[37m: 0x18
+ADC[37m [37mFlag Regis[37mt[37mer: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: [37m0[37mx88
+MADC:[37m [37m0x82
+ADC D[37mi[37mgital: 0xC[37m2[37m
+Total Wri[37mt[37me Errors: 1[37m[37m
+[37m
+[37m-[37m-- Pe[37mr[37miodic Stat[37mu[37ms Check ---[37m[37m
+
+=== ADC S[37mt[37matus ===
+[37mA[37mDC Address[37m:[37m 0x1A
+ADC [37mF[37mlag Registe[37mr[37m: 0x44
+PL[37mL[37m Config: 0[37mx[37m91
+NADC: 0[37mx[37m88
+MADC: 0[37mx[37m82
+ADC Di[37mg[37mital: 0xC2[37m
+[37mTotal Writ[37me[37m Errors: 1[37m[37m
+
+=== ADC S[37mt[37matus ===
+A[37mD[37mC Address:[37m [37m0x18
+ADC F[37ml[37mag Registe[37mr[37m: 0x44
+PLL[37m [37mConfig: 0x[37m9[37m1
+NADC: 0x[37m8[37m8
+MADC: 0[37mx[37m82
+ADC Dig[37mi[37mtal: 0xC2[37m
+[37mTotal Write[37m [37mErrors: 1[37m
+[37m
+[37m--- Periodic Status[37m Check ---
+[37m
+[37m=== ADC St[37ma[37mtus ===
+AD[37mC[37m Address: [37m0[37mx1A
+ADC Fl[37ma[37mg Register[37m:[37m 0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+
+[37m=[37m== ADC Sta[37mt[37mus ===
+ADC[37m [37mAddress: 0[37mx[37m18
+ADC Fl[37ma[37mg Register:[37m [37m0x44
+PLL [37mC[37monfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x8[37m2[37m
+ADC Digit[37ma[37ml: 0xC2
+T[37mo[37mtal Write E[37mr[37mrors: 1
+[37m
+[37m-[37m-- Perio[37md[37mic Status C[37mh[37meck ---
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC [37mA[37mddress: 0x[37m1[37mA
+ADC Flag[37m [37mRegister: [37m0[37mx44
+PLL Co[37mn[37mfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+To[37mt[37mal Write Er[37mr[37mors: 1
+
+=[37m=[37m= ADC Statu[37ms[37m ===
+ADC [37mA[37mddress: 0x1[37m8[37m
+ADC Flag [37mR[37megister: 0[37mx[37m44
+PLL Co[37mn[37mfig: 0x91
+[37mN[37mADC: 0x88
+[37mM[37mADC: 0x82[37m
+[37mADC Digita[37ml[37m: 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+[37m
+[37m-[37m-- Periodic[37m [37mStatus Che[37mc[37mk ---
+
+==[37m=[37m ADC Status[37m [37m===
+ADC Ad[37md[37mress: 0x1A[37m[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Conf[37mi[37mg: 0x91
+N[37mA[37mDC: 0x88
+M[37mA[37mDC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Erro[37mr[37ms: 1
+
+===[37m [37mADC Status [37m=[37m==
+ADC Ad[37md[37mress: 0x18[37m
+[37mADC Flag R[37me[37mgister: 0x4[37m4[37m
+PLL Conf[37mi[37mg: 0x91
+NA[37mD[37mC: 0x88
+M[37mA[37mDC: 0x82
+A[37mD[37mC Digital: [37m0[37mxC2
+Total[37m [37mWrite Erro[37mr[37ms: 1
+[37m
+[37m--[37m-[37m Periodic [37mS[37mtatus Check[37m [37m---
+
+=== [37mA[37mDC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x1A
+[37mA[37mDC Flag Reg[37mi[37mster: 0x44[37m[37m
+PLL Confi[37mg[37m: 0x91
+NAD[37mC[37m: 0x88
+MA[37mD[37mC: 0x82
+AD[37mC[37m Digital: [37m0[37mxC2
+Total [37mW[37mrite Errors[37m:[37m 1
+
+=== A[37mD[37mC Status ==[37m=[37m
+ADC Addr[37me[37mss: 0x18
+A[37mD[37mC Flag Reg[37mi[37mster: 0x44[37m
+[37mPLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MAD[37mC[37m: 0x82
+ADC[37m [37mDigital: 0[37mx[37mC2
+Total W[37mr[37mite Errors[37m:[37m 1
+[37m
+[37m--- Periodic St[37matus Check -[37m-[37m-
+
+=== AD[37mC[37m Status ===[37m[37m
+ADC Addre[37ms[37ms: 0x1A
+AD[37mC[37m Flag Regi[37ms[37mter: 0x44
+[37mP[37mLL Config:[37m [37m0x91
+NADC:[37m [37m0x88
+MADC:[37m [37m0x82
+ADC [37mD[37migital: 0x[37mC[37m2
+Total Wr[37mi[37mte Errors:[37m [37m1
+
+=== ADC[37m [37mStatus ===[37m[37m
+ADC Addres[37ms[37m: 0x18
+AD[37mC[37m Flag Regis[37mt[37mer: 0x44
+P[37mL[37mL Config: [37m0[37mx91
+NADC: [37m0[37mx88
+MADC:[37m [37m0x82
+ADC D[37mi[37mgital: 0xC[37m2[37m
+Total Wr[37mi[37mte Errors: [37m1[37m
+[37m
+[37m-[37m-- P[37me[37mriodic Stat[37mu[37ms Check ---[37m[37m
+
+=== ADC [37mS[37mtatus ===
+[37mA[37mDC Address[37m:[37m 0x1A
+ADC [37mF[37mlag Regist[37me[37mr: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: 0[37mx[37m88
+MADC: [37m0[37mx82
+ADC Di[37mg[37mital: 0xC2[37m[37m
+Total Writ[37me[37m Errors: 1[37m[37m
+
+=== ADC S[37mt[37matus ===
+[37mA[37mDC Address:[37m [37m0x18
+ADC [37mF[37mlag Registe[37mr[37m: 0x44
+PL[37mL[37m Config: 0x[37m9[37m1
+NADC: 0x[37m8[37m8
+MADC: 0[37mx[37m82
+ADC Dig[37mi[37mtal: 0xC2[37m
+[37mTotal Writ[37me[37m Errors: 1[37m
+[37m
+[37m-[37m-- Period[37mi[37mc Status[37m [37mCheck ---[37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address: [37m0[37mx1A
+ADC Fl[37ma[37mg Register[37m:[37m 0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x[37m8[37m2
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+[37m
+[37m=== ADC Sta[37mt[37mus ===
+AD[37mC[37m Address: 0[37mx[37m18
+ADC Fl[37ma[37mg Register:[37m [37m0x44
+PLL [37mC[37monfig: 0x91[37m[37m
+NADC: 0x8[37m8[37m
+MADC: 0x8[37m2[37m
+ADC Digi[37mt[37mal: 0xC2
+T[37mo[37mtal Write [37mE[37mrrors: 1
+[37m
+[37m-[37m-- Perio[37md[37mic Status C[37mh[37meck ---
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37mA
+ADC Fla[37mg[37m Register: [37m0[37mx44
+PLL C[37mo[37mnfig: 0x91[37m
+[37mNADC: 0x88[37m[37m
+MADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+To[37mt[37mal Write E[37mr[37mrors: 1
+
+=[37m=[37m= ADC Statu[37ms[37m ===
+ADC [37mA[37mddress: 0x[37m1[37m8
+ADC Flag[37m [37mRegister: 0[37mx[37m44
+PLL Co[37mn[37mfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m
+[37mADC Digita[37ml[37m: 0xC2
+Tot[37ma[37ml Write Er[37mr[37mors: 1
+[37m
+[37m-[37m-- Periodi[37mc[37m Status Ch[37me[37mck ---
+
+==[37m=[37m ADC Status[37m [37m===
+ADC A[37md[37mdress: 0x1[37mA[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+N[37mA[37mDC: 0x88
+[37mM[37mADC: 0x82
+[37mA[37mDC Digital[37m:[37m 0xC2
+Tota[37ml[37m Write Err[37mo[37mrs: 1
+
+===[37m [37mADC Status[37m [37m===
+ADC Ad[37md[37mress: 0x18[37m[37m
+ADC Flag R[37me[37mgister: 0x[37m4[37m4
+PLL Conf[37mi[37mg: 0x91
+NA[37mD[37mC: 0x88
+M[37mA[37mDC: 0x82
+A[37mD[37mC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Erro[37mr[37ms: 1
+[37m
+[37m-[37m-- Periodic [37mS[37mtatus Chec[37mk[37m ---
+
+=== [37mA[37mDC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x1A[37m
+[37mADC Flag Re[37mg[37mister: 0x44[37m[37m
+PLL Confi[37mg[37m: 0x91
+NA[37mD[37mC: 0x88
+MA[37mD[37mC: 0x82
+AD[37mC[37m Digital: [37m0[37mxC2
+Total [37mW[37mrite Error[37ms[37m: 1
+
+=== A[37mD[37mC Status =[37m=[37m=
+ADC Addr[37me[37mss: 0x18
+[37mA[37mDC Flag Reg[37mi[37mster: 0x44[37m[37m
+PLL Config[37m:[37m 0x91
+NADC[37m:[37m 0x88
+MAD[37mC[37m: 0x82
+ADC[37m [37mDigital: 0[37mx[37mC2
+Total [37mW[37mrite Errors[37m:[37m 1
+[37m
+[37m--- Periodic St[37matus Check [37m-[37m--
+
+=== AD[37mC[37m Status ==[37m=[37m
+ADC Addre[37ms[37ms: 0x1A
+AD[37mC[37m Flag Regi[37ms[37mter: 0x44
+[37mP[37mLL Config:[37m [37m0x91
+NADC[37m:[37m 0x88
+MADC[37m:[37m 0x82
+ADC[37m [37mDigital: 0x[37mC[37m2
+Total Wr[37mi[37mte Errors:[37m [37m1
+
+=== ADC[37m [37mStatus ===[37m[37m
+ADC Addres[37ms[37m: 0x18
+AD[37mC[37m Flag Regis[37mt[37mer: 0x44
+[37mP[37mLL Config: [37m0[37mx91
+NADC:[37m [37m0x88
+MADC:[37m [37m0x82
+ADC [37mD[37migital: 0xC[37m2[37m
+Total Wri[37mt[37me Errors: [37m1[37m
+[37m
+[37m-[37m-- P[37me[37mriodic Stat[37mu[37ms Check --[37m-[37m
+
+=== ADC [37mS[37mtatus ===[37m
+[37mADC Address[37m:[37m 0x1A
+ADC[37m [37mFlag Regist[37me[37mr: 0x44
+P[37mL[37mL Config: 0[37mx[37m91
+NADC: [37m0[37mx88
+MADC: [37m0[37mx82
+ADC Di[37mg[37mital: 0xC2[37m[37m
+Total Writ[37me[37m Errors: 1[37m[37m
+
+=== ADC [37mS[37mtatus ===
+[37mA[37mDC Address:[37m [37m0x18
+ADC [37mF[37mlag Regist[37me[37mr: 0x44
+PL[37mL[37m Config: 0x[37m9[37m1
+NADC: 0[37mx[37m88
+MADC: [37m0[37mx82
+ADC Di[37mg[37mital: 0xC2[37m
+[37mTotal Writ[37me[37m Errors: 1[37m
+[37m
+[37m-[37m-- Peri[37mo[37mdic Status[37m [37mCheck ---[37m
+[37m
+=== ADC St[37ma[37mtus ===
+A[37mD[37mC Address: [37m0[37mx1A
+ADC F[37ml[37mag Register[37m:[37m 0x44
+PLL[37m [37mConfig: 0x9[37m1[37m
+NADC: 0x[37m8[37m8
+MADC: 0x[37m8[37m2
+ADC Dig[37mi[37mtal: 0xC2
+[37mT[37motal Write[37m [37mErrors: 1
+[37m
+[37m=== ADC St[37ma[37mtus ===
+AD[37mC[37m Address: [37m0[37mx18
+ADC Fl[37ma[37mg Register:[37m [37m0x44
+PLL [37mC[37monfig: 0x9[37m1[37m
+NADC: 0x8[37m8[37m
+MADC: 0x8[37m2[37m
+ADC Digi[37mt[37mal: 0xC2
+[37mT[37motal Write [37mE[37mrrors: 1
+[37m
+[37m-[37m-- Period[37mi[37mc Status [37mC[37mheck ---
+
+[37m=[37m== ADC Stat[37mu[37ms ===
+ADC[37m [37mAddress: 0x[37m1[37mA
+ADC Fla[37mg[37m Register: [37m0[37mx44
+PLL C[37mo[37mnfig: 0x91[37m[37m
+NADC: 0x88[37m[37m
+MADC: 0x82[37m[37m
+ADC Digit[37ma[37ml: 0xC2
+To[37mt[37mal Write E[37mr[37mrors: 1
+
+=[37m=[37m= ADC Stat[37mu[37ms ===
+ADC [37mA[37mddress: 0x[37m1[37m8
+ADC Flag[37m [37mRegister: [37m0[37mx44
+PLL Co[37mn[37mfig: 0x91[37m
+[37mNADC: 0x88[37m
+[37mMADC: 0x82[37m[37m
+ADC Digita[37ml[37m: 0xC2
+Tot[37ma[37ml Write Er[37mr[37mors: 1
+[37m
+[37m--- Periodi[37mc Status Ch[37me[37mck ---
+
+==[37m=[37m ADC Statu[37ms[37m ===
+ADC A[37md[37mdress: 0x1[37mA[37m
+ADC Flag [37mR[37megister: 0x[37m4[37m4
+PLL Con[37mf[37mig: 0x91
+[37mN[37mADC: 0x88
+[37mM[37mADC: 0x82[37m
+[37mADC Digital[37m:[37m 0xC2
+Tot[37ma[37ml Write Err[37mo[37mrs: 1
+
+===[37m [37mADC Status[37m [37m===
+ADC Ad[37md[37mress: 0x18[37m[37m
+ADC Flag R[37me[37mgister: 0x[37m4[37m4
+PLL Conf[37mi[37mg: 0x91
+N[37mA[37mDC: 0x88
+M[37mA[37mDC: 0x82
+[37mA[37mDC Digital:[37m [37m0xC2
+Tota[37ml[37m Write Erro[37mr[37ms: 1
+[37m
+[37m-[37m-- Periodic [37mS[37mtatus Chec[37mk[37m ---
+
+=== [37mA[37mDC Status [37m=[37m==
+ADC Add[37mr[37mess: 0x1A[37m
+[37mADC Flag Re[37mg[37mister: 0x4[37m4[37m
+PLL Confi[37mg[37m: 0x91
+NA[37mD[37mC: 0x88
+MA[37mD[37mC: 0x82
+A[37mD[37mC Digital: [37m0[37mxC2
+Total[37m [37mWrite Error[37ms[37m: 1
+
+=== A[37mD[37mC Status =[37m=[37m=
+ADC Add[37mr[37mess: 0x18
+[37mA[37mDC Flag Re[37mg[37mister: 0x44[37m[37m
+PLL Config[37m:[37m 0x91
+NAD[37mC[37m: 0x88
+MAD[37mC[37m: 0x82
+AD[37mC[37m Digital: 0[37mx[37mC2
+Total [37mW[37mrite Errors[37m:[37m 1

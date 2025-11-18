@@ -1,0 +1,151 @@
+[37mLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:[37m
+[37m
+[37m====[37m=[37m===========[37m=[37m==========[37m=[37m===========[37m=[37m
+ESP32 TL[37mV[37m320ADC3101 [37m+[37m I2S Test
+[37m=[37m==========[37m=[37m===========[37m=[37m==========[37m=[37m=====
+
+[37mI[37m2[37mC Initialize[37md[37m
+  SDA: G[37mP[37mIO25, SCL:[37m [37mGPIO26, Fre[37mq[37m: 400 kHz
+
+[37mS[37mcanning I2[37mC[37m bus...
+  [37m0[37mx18 (ADC2)[37m[37m
+  0x1A (AD[37mC[37m1)
+  0x3F[37m[37m
+Found 3 de[37mv[37mices
+
+--- [37mC[37monfiguring [37mA[37mDC1 (0x1A)[37m [37m---
+[37m[37m[37m✓ Configuration successful (0 errors)
+
+--- Configuring ADC2 (0x18) ---
+[37m[37m[37m✓ Configu[37mr[37mation succe[37ms[37msful (0 er[37mr[37mors)
+
+=== [37mI[37m2S Configu[37mr[37mation ===
+[37m[37m✓ I2S ini[37mt[37mialized suc[37mc[37messfully
+[37m [37m Sample Rat[37me[37m: 48000 Hz
+[37m [37m BCK: GPIO[37m2[37m7, WS: GPI[37mO[37m32, DIN: GP[37mI[37mO33
+
+✓ Se[37mt[37mup complet[37me[37m! Waiting [37mf[37mor ADCs to [37ms[37mtabilize...[37m[37m
+[37m
+[37m[37m▶[37m Starting [37mI[37m2S audio te[37ms[37mt (every 3[37m [37mseconds)...[37m
+[37m
+
+=== I2S [37mA[37mudio Test [37m=[37m==
+Sample[37ms[37m: 512 | Non[37m-[37mzero: 512 ([37m1[37m00.0%)
+Ran[37mg[37me: -1 to -1[37m
+[37mAverage: 1[37m
+[37m
+First 8 sa[37mm[37mples:
+  [[37m0[37m]: 0xFFFFF[37mF[37mFF (-1)
+  [[37m1[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m2[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m3[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m4[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m5[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [6[37m][37m: 0xFFFFFF[37mF[37mF (-1)
+  [7[37m][37m: 0xFFFFFF[37mF[37mF (-1)
+
+[37m⚠[37m WARNING: S[37mi[37mgnal very [37mw[37meak - adjus[37mt[37m gain
+[37m
+[37m=== I2S Audio[37m Test ===
+S[37ma[37mmples: 512[37m [37m| Non-zero:[37m [37m512 (100.0%[37m)[37m
+Range: -1[37m [37mto -1
+Aver[37ma[37mge: 1
+
+Firs[37mt[37m 8 samples[37m:[37m
+  [0]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+  [1]: 0x[37mF[37mFFFFFFF (-[37m1[37m)
+  [2]: 0x[37mF[37mFFFFFFF (-[37m1[37m)
+  [3]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+  [4]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+  [5]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+  [6]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+  [7]: 0x[37mF[37mFFFFFFF (-1[37m)[37m
+
+⚠ WARN[37mI[37mNG: Signal [37mv[37mery weak -[37m [37madjust gain[37m[37m
+[37m
+[37m===[37m [37mI2S Audio T[37me[37mst ===
+Sa[37mm[37mples: 512 |[37m [37mNon-zero: [37m5[37m12 (100.0%)[37m
+[37mRange: -1 [37mt[37mo -1
+Averag[37me[37m: 1
+
+First[37m [37m8 samples:[37m
+[37m  [0]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [1]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [2]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [3]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [4]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [5]: 0xFF[37mF[37mFFFFF (-1)[37m
+[37m  [6]: 0xF[37mF[37mFFFFFF (-1)[37m
+[37m  [7]: 0xFF[37mF[37mFFFFF (-1)[37m
+[37m
+⚠ WARNI[37mN[37mG: Signal v[37me[37mry weak - a[37md[37mjust gain[37m
+[37m
+[37m=== [37mI[37m2S Audio Te[37ms[37mt ===
+Sam[37mp[37mles: 512 | [37mN[37mon-zero: 5[37m1[37m2 (100.0%)
+[37mR[37mange: -1 t[37mo[37m -1
+Average[37m:[37m 1
+
+First [37m8[37m samples:
+[37m [37m [0]: 0xFF[37mF[37mFFFFF (-1)
+[37m [37m [1]: 0xFFF[37mF[37mFFFF (-1)
+[37m [37m [2]: 0xFF[37mF[37mFFFFF (-1)
+[37m [37m [3]: 0xFFF[37mF[37mFFFF (-1)
+[37m [37m [4]: 0xFF[37mF[37mFFFFF (-1)
+[37m [37m [5]: 0xFFF[37mF[37mFFFF (-1)
+[37m [37m [6]: 0xFFF[37mF[37mFFFF (-1)
+[37m [37m [7]: 0xFFF[37mF[37mFFFF (-1)
+[37m
+[37m⚠ WARNING[37m:[37m Signal ve[37mr[37my weak - ad[37mj[37must gain
+[37m
+[37m=== I[37m2[37mS Audio Tes[37mt[37m ===
+Samp[37ml[37mes: 512 | N[37mo[37mn-zero: 51[37m2[37m (100.0%)
+R[37ma[37mnge: -1 to[37m [37m-1
+Average:[37m [37m1
+
+First 8[37m [37msamples:
+ [37m [37m[0]: 0xFFF[37mF[37mFFFF (-1)
+ [37m [37m[1]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[2]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[3]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[4]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[5]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[6]: 0xFFFF[37mF[37mFFF (-1)
+ [37m [37m[7]: 0xFFFF[37mF[37mFFF (-1)
+
+[37m[37m⚠ WARNING:[37m [37mSignal ver[37my[37m weak - adj[37mu[37mst gain
+[37m
+[37m=[37m== I2S [37mA[37mudio Test[37m [37m===
+Sampl[37me[37ms: 512 | No[37mn[37m-zero: 512[37m [37m(100.0%)
+Ra[37mn[37mge: -1 to -[37m1[37m
+Average: [37m1[37m
+
+First 8 s[37ma[37mmples:
+  [37m[[37m0]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m1]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m2]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m3]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m4]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m5]: 0xFFFFF[37mF[37mFF (-1)
+  [[37m6[37m]: 0xFFFFF[37mF[37mFF (-1)
+  [37m[[37m7]: 0xFFFFF[37mF[37mFF (-1)
+
+[37m⚠[37m WARNING: [37mS[37mignal very[37m [37mweak - adju[37ms[37mt gain
+[37m
+[37m=== I2S [37mA[37mudio Test [37m=[37m==
+Sample[37ms[37m: 512 | Non[37m-[37mzero: 512 ([37m1[37m00.0%)
+Ran[37mg[37me: -1 to -[37m1[37m
+Average: 1[37m
+[37m
+First 8 sa[37mm[37mples:
+  [[37m0[37m]: 0xFFFFF[37mF[37mFF (-1)
+  [[37m1[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m2[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m3[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m4[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m5[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [[37m6[37m]: 0xFFFFFF[37mF[37mF (-1)
+  [7[37m][37m: 0xFFFFFF[37mF[37mF (-1)
+
+[37m⚠[37m WARNING: S[37mi[37mgnal very w[37me[37mak - adjus[37mt[37m gain

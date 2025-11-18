@@ -1,0 +1,22 @@
+[37mLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:[37m
+[37m
+A[37mD[37mC3101 Conf[37mi[37mguration fo[37mr[37m ESP32
+==[37m=[37m===========[37m=[37m==========[37m=[37m======
+[37mI[37m2[37mC Initial[37mi[37mzed
+SDA Pi[37mn[37m: 25, SCL [37mP[37min: 26
+
+Sc[37ma[37mnning I2C [37mb[37mus...
+Foun[37md[37m device at[37m [37m0x18
+Found[37m [37mdevice at [37m0[37mx1A
+Found [37md[37mevice at 0x[37m3[37mF
+Total d[37me[37mvices foun[37md[37m: 3
+
+Confi[37mg[37muring ADC1 [37m([37m0x1A)...
+[37mA[37mD[37mC1 confi[37mg[37mured succes[37ms[37mfully
+
+Co[37mn[37mfiguring AD[37mC2 (0x18)...
+[37mA[37mDC2 configur[37med successf[37mu[37mlly
+
+Setu[37mp[37m complete![37m

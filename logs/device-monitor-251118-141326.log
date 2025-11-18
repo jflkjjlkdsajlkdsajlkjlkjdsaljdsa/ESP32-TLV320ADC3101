@@ -1,0 +1,137 @@
+[37m
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:[37m
+[37m
+[37m====[37m=[37m==========[37m=[37m===========[37m=[37m==========[37m=[37m=
+ESP32 TL[37mV[37m320ADC3101[37m [37m+ I2S Test[37m
+[37m==========[37m=[37m===========[37m=[37m==========[37m=[37m======
+
+[37mI[37m2[37mC Initializ[37me[37md
+  SDA: [37mG[37mPIO25, SCL:[37m [37mGPIO26, Fr[37me[37mq: 400 kHz
+[37m
+[37mScanning I2[37mC[37m bus...
+ [37m [37m0x18 (ADC2[37m)[37m
+  0x1A (A[37mD[37mC1)
+  0x3F[37m[37m
+Found 3 d[37me[37mvices
+
+--- [37mC[37monfiguring[37m [37mADC1 (0x1A[37m)[37m ---
+[37m[37m[37m✓ Configu[37mr[37mation succ[37me[37mssful (0 e[37mr[37mrors)
+
+---[37m [37mConfigurin[37mg[37m ADC2 (0x18[37m)[37m ---
+[37m[37m[37m✓ Configu[37mr[37mation succ[37me[37mssful (0 e[37mr[37mrors)
+
+===[37m [37mI2S Configu[37mr[37mation ===[37m
+[37m✓ I2S ini[37mt[37mialized su[37mc[37mcessfully
+[37m [37m Sample Ra[37mt[37me: 48000 Hz[37m
+[37m  BCK: GPI[37mO[37m32, WS: GPI[37mO[37m33, DIN: G[37mP[37mIO13
+
+✓ S[37me[37mtup comple[37mt[37me! Waiting [37mf[37mor ADCs to [37ms[37mtabilize..[37m.[37m
+[37m
+[37m[37m▶ Starting [37mI[37m2S audio t[37me[37mst (every 3[37m [37mseconds)..[37m.[37m
+
+
+=== I2S[37m [37mAudio Test[37m [37m===
+Sample[37ms[37m: 512 | No[37mn[37m-zero: 0 (0[37m.[37m0%)
+Range:[37m [37m0 to 0
+Aver[37ma[37mge: 0
+
+Firs[37mt[37m 8 samples[37m:[37m
+  [0]: 0[37mx[37m00000000 (0[37m)[37m
+  [1]: 0x0[37m0[37m000000 (0)[37m
+[37m  [2]: 0x0[37m0[37m000000 (0)
+[37m [37m [3]: 0x000[37m0[37m0000 (0)
+ [37m [37m[4]: 0x0000[37m0[37m000 (0)
+  [37m[[37m5]: 0x00000[37m0[37m00 (0)
+  [[37m6[37m]: 0x000000[37m0[37m0 (0)
+  [7[37m][37m: 0x0000000[37m0[37m (0)
+
+❌ [37mE[37mRROR: All s[37ma[37mmples ZERO[37m [37m- No I2S da[37mt[37ma!
+Check:[37m[37m
+  - I2S wi[37mr[37ming (BCK/W[37mS[37m/DOUT)
+  -[37m [37mTLV DOUT en[37ma[37mbled
+  - [37mA[37mudio input [37mc[37monnected
+[37m
+[37m=[37m== I2S Audio [37mT[37mest ===
+[37mS[37mamples: 512[37m [37m| Non-zero[37m:[37m 0 (0.0%)
+R[37ma[37mnge: 0 to 0[37m
+[37mAverage: 0[37m
+[37m
+First 8 s[37ma[37mmples:
+  [[37m0[37m]: 0x000000[37m0[37m0 (0)
+  [1[37m][37m: 0x000000[37m0[37m0 (0)
+  [2][37m:[37m 0x00000000[37m [37m(0)
+  [3]:[37m [37m0x00000000 [37m([37m0)
+  [4]: [37m0[37mx00000000 ([37m0[37m)
+  [5]: 0[37mx[37m00000000 (0[37m)[37m
+  [6]: 0x[37m0[37m0000000 (0)[37m
+[37m  [7]: 0x0[37m0[37m000000 (0)
+[37m
+[37m❌ ERROR:[37m [37mAll samples[37m [37mZERO - No I[37m2[37mS data!
+C[37mh[37meck:
+  - [37mI[37m2S wiring ([37mB[37mCK/WS/DOUT)[37m[37m
+  - TLV D[37mO[37mUT enabled[37m[37m
+  - Audio [37mi[37mnput conne[37mc[37mted
+[37m
+[37m===[37m [37mI2S Audio [37mT[37mest ===
+Sa[37mm[37mples: 512 [37m|[37m Non-zero: [37m0[37m (0.0%)
+Ra[37mn[37mge: 0 to 0
+[37mA[37mverage: 0
+[37m
+[37mFirst 8 sam[37mp[37mles:
+  [0[37m][37m: 0x0000000[37m0[37m (0)
+  [1][37m:[37m 0x00000000[37m [37m(0)
+  [2]:[37m [37m0x00000000 [37m([37m0)
+  [3]: [37m0[37mx00000000 ([37m0[37m)
+  [4]: 0[37mx[37m00000000 (0[37m)[37m
+  [5]: 0x[37m0[37m0000000 (0)[37m
+[37m  [6]: 0x0[37m0[37m000000 (0)
+[37m [37m [7]: 0x000[37m0[37m0000 (0)
+
+[37m[37m❌ ERROR: A[37ml[37ml samples [37mZ[37mERO - No I2[37mS[37m data!
+Ch[37me[37mck:
+  - I2[37mS[37m wiring (B[37mC[37mK/WS/DOUT)[37m
+[37m  - TLV DO[37mU[37mT enabled
+[37m [37m - Audio i[37mn[37mput connect[37me[37md
+[37m
+[37m=== [37mI[37m2S Audio T[37me[37mst ===
+Sam[37mp[37mles: 512 |[37m [37mNon-zero: 0[37m [37m(0.0%)
+Ran[37mg[37me: 0 to 0
+A[37mv[37merage: 0
+
+[37mF[37mirst 8 samp[37ml[37mes:
+  [0][37m:[37m 0x00000000[37m [37m(0)
+  [1]:[37m [37m0x00000000 [37m([37m0)
+  [2]: [37m0[37mx00000000 ([37m0[37m)
+  [3]: 0x[37m0[37m0000000 (0[37m)[37m
+  [4]: 0x0[37m0[37m000000 (0)[37m
+[37m  [5]: 0x00[37m0[37m00000 (0)
+[37m [37m [6]: 0x00[37m0[37m00000 (0)
+ [37m [37m[7]: 0x0000[37m0[37m000 (0)
+
+[37m[37m❌ ERROR: Al[37ml[37m samples Z[37mE[37mRO - No I2S[37m [37mdata!
+Che[37mc[37mk:
+  - I2S[37m [37mwiring (BC[37mK[37m/WS/DOUT)
+[37m [37m - TLV DOU[37mT[37m enabled
+ [37m [37m- Audio inp[37mu[37mt connecte[37md[37m
+[37m
+[37m=== I[37m2[37mS Audio Tes[37mt[37m ===
+Samp[37ml[37mes: 512 | [37mN[37mon-zero: 0 [37m([37m0.0%)
+Rang[37me[37m: 0 to 0
+Av[37me[37mrage: 0
+
+F[37mi[37mrst 8 sampl[37me[37ms:
+  [0]: [37m0[37mx00000000 [37m([37m0)
+  [1]: [37m0[37mx00000000 ([37m0[37m)
+  [2]: 0x[37m0[37m0000000 (0[37m)[37m
+  [3]: 0x0[37m0[37m000000 (0)[37m
+[37m  [4]: 0x00[37m0[37m00000 (0)
+[37m [37m [5]: 0x000[37m0[37m0000 (0)
+ [37m [37m[6]: 0x0000[37m0[37m000 (0)
+  [37m[[37m7]: 0x00000[37m0[37m00 (0)
+
+[37m❌[37m ERROR: All[37m [37msamples ZER[37mO[37m - No I2S [37md[37mata!
+Check[37m:[37m
+  - I2S [37mw[37miring (BCK/[37mW[37mS/DOUT)
+ [37m [37m- TLV DOUT[37m [37menabled
+  [37m-[37m Audio inp[37mu[37mt connected[37m[37m

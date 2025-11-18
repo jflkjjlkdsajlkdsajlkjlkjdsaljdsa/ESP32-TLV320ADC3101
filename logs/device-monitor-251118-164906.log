@@ -1,0 +1,28 @@
+[37m
+[37m
+[37m==========[37m=[37m===========[37m=[37m==========[37m=[37m======
+ESP[37m3[37m2 TLV320AD[37mC[37m3101 + I2S [37mT[37mest
+======[37m=[37m==========[37m=[37m==========[37m=[37m===========[37m
+[37m
+[37mI[37m2[37mC Ini[37mt[37mialized
+  [37mS[37mDA: GPIO25,[37m [37mSCL: GPIO2[37m6[37m, Freq: 400[37m [37mkHz
+
+Scann[37mi[37mng I2C bus.[37m.[37m.
+  0x18 [37m([37mADC2)
+  0x[37m1[37mA (ADC1)
+[37m [37m 0x39
+  0x[37m3[37mF
+Found 4[37m [37mdevices
+
+--[37m-[37m Configuri[37mn[37mg ADC1 (0x1[37mA[37m) ---
+[37m[37m[37m✓ Configura[37mt[37mion succes[37ms[37mful (0 erro[37mr[37ms)
+
+--- C[37monfiguring A[37mD[37mC2 (0x18) [37m-[37m--
+[37m[37m[37m✓ Configura[37mt[37mion succes[37ms[37mful (0 erro[37mr[37ms)
+
+=== I2[37mS[37m Configura[37mt[37mion ===
+[37m✓[37m I2S initi[37ma[37mlized succe[37ms[37msfully
+  [37mS[37mample Rate:[37m [37m48000 Hz
+ [37m [37mBCK: GPIO32[37m,[37m WS: GPIO3[37m3[37m, DIN: GPIO[37m1[37m3
+
+✓ Set[37mu[37mp complete![37m [37mWaiting fo[37mr[37m ADCs to st[37ma[37mbilize...[37m

@@ -1,0 +1,16 @@
+[37m[[37m    34][E][Hardware[37mS[37merial.cpp:543] setTxBufferSize(): TX Buffer can't be resized wh[37me[37mn Serial is already running.[37m [37mSet it before calling begin().
+
+
+===============================[37m=========
+ESP32 Audio Recorder[37m - Serial Transfer
+========================================
+
+[37mC[37monfiguring ADCs...
+[37mS[37me[37mtting up I2S...
+[37m
+[37m✓ Setup complete!
+
+Commands:
+  Type 'r' or 'record' to start[37m [37mrecording
+  Recording will be 5 seconds long
+

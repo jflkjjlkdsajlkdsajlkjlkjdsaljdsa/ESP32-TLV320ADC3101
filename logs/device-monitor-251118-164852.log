@@ -1,0 +1,32 @@
+[37mLASH_BOOT)
+configsip: 0[37m
+[37m
+========================================
+ESP32 TLV320ADC3101 +[37m [37mI2S Test
+=[37m=[37m===========[37m=[37m==========[37m=[37m==========[37m=[37m====
+
+[37mI[37m2C Initializ[37med
+  SDA: G[37mP[37mIO25, SCL: [37mG[37mPIO26, Fre[37mq[37m: 400 kHz
+
+[37mS[37mcanning I2[37mC[37m bus...
+  [37m0[37mx18 (ADC2)[37m[37m
+  0x1A (AD[37mC[37m1)
+  0x39[37m[37m
+  0x3F
+Fo[37mu[37mnd 4 devic[37me[37ms
+
+--- Conf[37mi[37mguring ADC[37m1[37m (0x1A) ---[37m[37m
+[37m[37m[37m✓ Conf[37mi[37mguration s[37mu[37mccessful ([37m0[37m errors)
+
+[37m-[37m-- Configu[37mr[37ming ADC2 (0[37mx18) ---
+[37m[37m[37m✓ Conf[37mi[37mguration s[37mu[37mccessful (0[37m [37merrors)
+
+[37m=[37m== I2S Conf[37mi[37mguration =[37m=[37m=
+✓ I2S [37mi[37mnitialized[37m [37msuccessfull[37my[37m
+  Sample[37m [37mRate: 48000[37m [37mHz
+  BCK: [37mG[37mPIO32, WS: [37mG[37mPIO33, DIN:[37m [37mGPIO13
+
+[37m✓[37m Setup com[37mp[37mlete! Waiti[37mn[37mg for ADCs [37mt[37mo stabiliz[37me[37m...
+[37m
+[37m[37m▶[37m Starting [37mI[37m2S audio te[37ms[37mt (every 3 [37ms[37meconds)...[37m
+[37m
