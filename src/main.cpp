@@ -8,21 +8,21 @@
 
 // ========== PIN CONFIGURATION ==========
 
-#define I2C_SDA 5
+#define I2C_SDA 25
 
-#define I2C_SCL 6
+#define I2C_SCL 26
 
-#define TLV_RESET_PIN 19
+#define TLV_RESET_PIN 32
 
 // I2S Configuration
 
 #define I2S_NUM         I2S_NUM_0
 
-#define I2S_BCK_PIN     7    // Bit clock (BCLK) - connect to TLV BCLK
+#define I2S_BCK_PIN     31    // Bit clock (BCLK) - connect to TLV BCLK
 
-#define I2S_WS_PIN      14    // Word select (LRCLK/WCLK) - connect to TLV WCLK
+#define I2S_WS_PIN      33   // Word select (LRCLK/WCLK) - connect to TLV WCLK
 
-#define I2S_DATA_IN_PIN 9    // Data in (DOUT from TLV) - connect to TLV DOUT
+#define I2S_DATA_IN_PIN 13    // Data in (DOUT from TLV) - connect to TLV DOUT
 
 // ========== I2C CONFIGURATION ==========
 
